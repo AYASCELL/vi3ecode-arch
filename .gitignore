@@ -1,0 +1,9 @@
+# Büyük ikili dosyalar, yerel otomasyon betiği ve derleme çıktıları
+*.AppImage
+*.pkg.tar.zst
+*.pkg.tar.xz
+*-src.tar.zst
+build-repo.sh
+repo/
+src/
+pkg/

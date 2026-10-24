@@ -1,0 +1,18 @@
+pkgbase = vi3ecode-bin
+	pkgdesc = Vi3ecode - Multi-Agent Orchestration Desktop Application
+	pkgver = 0.4.6
+	pkgrel = 1
+	url = https://vi3ecode.com/
+	arch = x86_64
+	license = custom
+	depends = fuse2
+	depends = glibc
+	depends = hicolor-icon-theme
+	provides = vi3ecode
+	conflicts = vi3ecode
+	options = !strip
+	options = !debug
+	source = vi3ecode-bin-0.4.6-src.tar.zst::https://github.com/AYASCELL/vi3ecode-arch/releases/download/x86_64/vi3ecode-bin-0.4.6-1-x86_64.pkg.tar.zst
+	sha256sums = e1bddfcf91642e9d30a1e6b06bc11b213d51d89cc9a1f3002d96226afe84d31f
+
+pkgname = vi3ecode-bin
